@@ -18,15 +18,17 @@ This project is a scalable backend system for a global e-learning platform where
 
 ## Project Structure
 
+```bash
 src/
-├── controllers/ # Route Handlers
-├── services/ # Business Logic
-├── entities/ # TypeORM Entity Models
-├── routes/ # Express Route Definitions
-├── middleware/ # Middleware
-├── utils/ # JWT, Hashing Utils
-├── jobs/ # BullMQ Workers and Queues
-└── index.ts # Entry Point
+├── controllers/      # Route Handlers
+├── services/         # Business Logic
+├── entities/         # TypeORM Entity Models
+├── routes/           # Express Route Definitions
+├── middleware/       # Express Middleware
+├── utils/            # Utility functions (e.g. JWT, hashing)
+├── jobs/             # BullMQ Workers and Queues
+└── index.ts          # Application Entry Point
+
 
 ## API Endpoints
 
@@ -69,3 +71,4 @@ src/
 - **dotenv** for env config
 
 ---
+```
