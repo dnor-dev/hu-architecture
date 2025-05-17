@@ -1,0 +1,12 @@
+# Ignore the nodemodules and all the neccessary files
+*node_modules
+*package-lock.json
+
+# Ignore the .vscode folder
+.vscode
+
+# Ignore the .DS_Store file
+.DS_Store   
+ 
+# Ignore the .idea folder
+.idea
