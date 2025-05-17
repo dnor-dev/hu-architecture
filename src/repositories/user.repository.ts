@@ -8,6 +8,10 @@ export class UserRepository {
     return await this.repository.findOne({ where: { email } });
   }
 
+  async findById(id: string): Promise<User | null> {
+    return await this.repository.findOne({ where: { id } });
+  }
+
   async saveUser(user: User): Promise<User> {
     return await this.repository.save(user);
   }
