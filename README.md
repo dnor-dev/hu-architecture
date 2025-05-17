@@ -18,7 +18,8 @@ This project is a scalable backend system for a global e-learning platform where
 
 ## Project Structure
 
-src/
+<pre>
+    ```src/
 ├── controllers/ # Route Handlers
 ├── services/ # Business Logic
 ├── entities/ # TypeORM Entity Models
@@ -26,7 +27,8 @@ src/
 ├── middleware/ # Express Middleware
 ├── utils/ # Utility functions (e.g. JWT, hashing)
 ├── jobs/ # BullMQ Workers and Queues
-└── index.ts # Application Entry Point
+└── index.ts # Application Entry Point ```
+</pre>
 
 ## API Endpoints
 
